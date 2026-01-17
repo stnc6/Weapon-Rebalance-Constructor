@@ -1,0 +1,13 @@
+{
+  "name": "Weapon Rebalance Constructor",
+  "description": "Make the weapon of your dreams",
+  "image" : "icon.png",
+  "color" : "255 0 0",
+  "author": "[6IX]",
+  "contact": "https://steamcommunity.com/id/sayll/",
+  "version": "1.0",
+  "hooks": [
+	{ "hook_id":"lib/tweak_data/weapontweakdata", "script_path":"WeaponOutputHere.lua"},
+	{ "hook_id":"lib/tweak_data/weaponfactorytweakdata", "script_path":"WeaponFactoryTweakData.lua"}
+  ]
+}
